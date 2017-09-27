@@ -1,0 +1,260 @@
+
+/*************sign up start********/
+#signup_main{
+	position: relative;
+	width: 576px;
+	height: 835px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background: url(../images/log-bg.png);
+}
+#signup_main .logo-img{
+	top:65px;
+}
+#signup_main .brand-heading{
+	font-family: roboto_light !important;
+	font-size: 26px !important;
+	color: #fff;
+	opacity: 0.6;
+	position: relative;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: -6px;
+	letter-spacing: .5px;
+}
+form#sign-form{
+	margin-top:10px; 
+	display: inline-block;
+	width: 100%;
+}
+#sign-form .form-content-sign{
+	position: relative;
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom: 6px;
+    border-bottom: 1px solid gray;
+}
+#signup_main .form-content-sign > i{
+	width: 23px;
+	font-size: 21px;
+	font-weight: lighter;
+	margin-left: 16px;
+}
+#signup_main .form-content-sign > input{
+	background: transparent;
+	font-family: roboto_light !important;
+	font-size: 19px;
+	border: 0px;
+	margin-left: 15px; 
+	letter-spacing: .5px;
+	outline: none;
+	color: #8c8c90;
+	width: 245px;
+}
+.form-content-sign-flag #phone-box{
+	width: 300px;
+	height: 27px; 
+	margin-top: 12px; 
+	text-align: left;
+}
+
+.flag-text {
+	color: #000000 !important;
+    opacity: 1;
+    font-family: 'roboto_regular';
+    font-size: 14px !important;
+    line-height: 23px !important;
+    background-color: white;
+}
+
+.custom-form-content-sign {
+	position: relative;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid gray;
+}
+
+.custom-sign-input {
+	background: transparent;
+    font-family: roboto_light !important;
+    font-size: 19px;
+    border: 0px;
+    margin-left: -5px;
+    letter-spacing: .5px;
+    outline: none;
+    color: #8c8c90;
+    width: 130px;	
+}
+
+.form-content-sign-flag #phone-box .flag_responsive_sign {
+	width: 80px;
+	float: left !important;
+}
+
+.custom-intro {
+	background: #5c34eb;
+	background-image: url(../images/banner-bg.jpg);
+	background-size: cover;
+}
+
+.background-cover {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.form-content-sign-flag #phone-box .flag_responsive_sign > a > i{
+	margin-left: 16px;
+    font-size: 23px;
+	color: #8c8c90
+}
+#signup_main .form-content-sign-flag img {
+    margin-left: 7px;
+    margin-top: -6px;
+}
+.intercode > span {
+	background: transparent;
+	font-family: roboto_light !important;
+	font-size: 20px;
+	border: 0px;
+    width: 40px;
+    float: left;
+	margin-left: 0px;
+    margin-top: -2px;
+    text-align: center;
+    color: #8c8c90;
+}
+#signup_main .form-content-sign-flag  #phonenum {
+	display: inline;
+	margin-top: -5px;
+	float: left;
+}
+#signup_main .form-content-sign-flag  #phonenum > input {
+	background: transparent;
+	font-family: roboto_light !important;
+	padding: 0px 0px !important;
+	font-size: 19px;
+	border: 0px;
+	letter-spacing: .5px;
+    color: #8c8c90;
+    width: 170px;
+    box-shadow: none;
+}
+#sign-form .form-content-sign-flag{
+	position: relative;
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+	padding-top:10px;
+	padding-bottom: 6px;
+    border-bottom: 1px solid gray;
+}
+#sign-form .form-content-agreed {
+	width: 300px; 
+	height: 67px; 
+	margin: 0 auto;
+	text-align: left;
+}
+#sign-form .form-content-agreed .agreecheck {
+	margin-top: 37px;
+    margin-left: 4px;
+    width: 20px;
+}
+#sign-form .form-content-agreed .agreedcontent .agreedtext {
+	font-family: roboto_light;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: #8c8c90;
+}
+#sign-form .form-content-agreed .agreedcontent {
+	margin-left: 36px;
+    margin-top: -23px;
+}
+#sign-form .form-content-agreed .agreedcontent .agreedtext > a {
+	color: #8c8c90;
+    text-decoration: underline;
+}
+#sign-form .form-content-agreed .agreedcontent .agreedtext > a:hover {
+    cursor: pointer;
+}
+.form-submit-sign{
+    margin-top: -21px;
+    margin-left: 2px;
+}
+#sign-form .form-submit{
+	margin-top: 50px;
+}
+.sign-submit:hover{
+	background: transparent;
+	width: 295px;
+	height:57px;
+	font-size: 25px;
+    font-family: 'futurabookc';
+    font-weight: 500;
+    color: #c7aa5b;
+    border: solid 3px;
+    padding: 10px 41px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    padding-bottom: 7px;
+}
+.sign-submit {
+	color: #ffffff;
+	background: #c7aa5b;
+	cursor: pointer;
+	width: 295px;
+	height:57px;
+	font-size: 25px;
+    font-family: 'futurabookc';
+    font-weight: 500;
+    border: solid 3px #c7aa5b;
+    padding: 10px 41px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    padding-bottom: 7px;
+
+}
+.loginlink {
+    margin-top: 14px;
+}
+.loginlink > p {
+	font-family: roboto_light;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    color: #c7aa5b;
+    margin-left: 12px;
+}
+.loginlink > p > a {
+	font-family: roboto_light;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    color: #c7aa5b;
+    border-bottom: 1px solid #c7aa5b;
+}
+.link-home{
+     font-family: 'roboto_regular';
+     color: white;
+     font-size: 16px;
+}
+.link-home:hover{
+     font-family: 'roboto_regular';
+     color: #c7aa5b;
+     font-size: 16px;
+}
+	
+#signup_main .form-content-sign .lavel-icon{
+     position: relative;
+     float: left;
+     width: 23px;
+     margin-left: 13px
+}
+/**************sign up end****/
+

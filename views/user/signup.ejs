@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIGN UP</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--2017/06/20-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="styles/grayscale.min.css" rel="stylesheet">
+    <!-- -->
+
+    <link href="styles/signup.css" rel="stylesheet">
+    <link href="styles/fonts.css" rel="stylesheet">
+    <link href="./css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Intro Header -->
+  <header class="intro custom-intro">
+    <div class="background-cover">
+      <div style="position: absolute; top:45px; left: 80px;z-index: 2;"><a href="/" class="link-home"><i class="fa fa-long-arrow-left"></i> Home</a></div>
+      <!-- <div style="position: absolute;margin: 0 auto;width:100%; height: 100%; opacity: 0.5;"><img src="img/compare.png"></div> -->
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="signup_main">
+                <div class="col-xs-4 col-xs-offset-4 ">
+                  <img src="images/logo-2.png" width="190.49px" height="90px" style="margin-top:65px;">
+                </div>
+                <div class="col-xs-12"><h1 class="brand-heading">WELCOME TO DIGIMINE</h1></div>
+                <div class="col-xs-12">
+                  <form id="sign-form" action="/signup" method="post" role="form">
+                    <!--username-->
+                    <div class="form-content-sign">
+                      <div class="lavel-icon"style="margin-top: 4px;"><img src="images/username.png" style="opacity:0.6;"></div>
+                      <input type="text" name="username" id="sign-username" tabindex="1" class="sign-input" placeholder="*Username" value="" required autocomplete="off">
+                    </div>
+                    <!--email-->
+                    <div class="form-content-sign">
+                      <div class="lavel-icon"style="margin-top: 4px;"><img src="images/mail.png"></div>
+                      <input type="email" name="email" id="sign-email" tabindex="2" class="sign-input" placeholder="*E-mail" value="" required autocomplete="off">
+                    </div>
+                    <!--password-->
+                    <div class="form-content-sign ">
+                      <div class="lavel-icon"><img src="images/lock.png"></div>
+                      <input type="password" name="password" id="sign-password" tabindex="3" class="sign-input" placeholder="*Password" value="" required autocomplete="off">
+                    </div>
+                    <!--confirm password-->
+                    <div class="form-content-sign ">
+                      <div class="lavel-icon"><img src="images/lock.png"></div>
+                      <input type="password" name="confrimpassword" id="confrim-password" tabindex="4" class="sign-input" placeholder="*Confirm password" value="" required autocomplete="off">
+                    </div>
+                    <!--firstname and lastname-->
+                    <div class="row" style="margin: 0 124px auto;">
+                      <div class="col-sm-5 custom-form-content-sign" style="width: 141px;">
+                        <input type="text" name="firstname" id="sign-firstname" tabindex="5" class="sign-input custom-sign-input" placeholder="First Name" value="" autocomplete="off">
+                      </div>
+                      <div class="col-sm-5 custom-form-content-sign" style="margin-left: 15px; width: 141px;">
+                        <input type="text" name="lastname" id="sign-lastname" tabindex="6" class="sign-input custom-sign-input" placeholder="Last Name" value="" autocomplete="off">
+                      </div>
+                    </div>
+                    <!--Address-->
+                    <div class="form-content-sign ">
+                      <div class="lavel-icon"><img src="images/address.png"></div>
+                      <input type="text" name="address" id="sign-address" tabindex="7" class="sign-input" placeholder="Address" value="" autocomplete="off">
+                    </div>
+                    <!--phone num-->
+                    <div class="form-content-sign-flag">
+                      <div id="phone-box">
+                        <div class="flag_responsive_sign" >
+                          <a aria-expanded="false" role="button" href="#" class="dropdown-toggle flag_selected_sign" data-toggle="dropdown">
+                          <i id="selectcountry" class="fa fa-angle-down"></i>
+                          <img id="selcountry" src="images/flag_eng.png"></a>
+                          <ul role="menu" class="dropdown-menu opt_flag" style="min-width: 0px !important; border-radius: 0px !important;">
+                              <li name="en" value="+44"><a class="flag-text" href="#">ENG&nbsp;&nbsp;<img id="en" src="images/flag_eng.png"></a></li>
+                              <li name="ru" value="+7"><a class="flag-text" href="#">RUS&nbsp;&nbsp;<img id="ru" src="images/flag_rus.png" style="margin-left: 8px;"></a></li>
+                              <li name="sp" value="+34"><a class="flag-text" href="#">SPA&nbsp;&nbsp;<img id="sp" src="images/flag_spa.png" style="margin-left: 10px;"></a></li>
+                              <li name="fr" value="+33"><a class="flag-text" href="#">FRA&nbsp;&nbsp;<img  id="fr" src="images/flag_fra.png" style="margin-left: 10px;"></a></li>
+                          </ul>
+                        </div>
+                        <div class="intercode">
+                          <span>+44</span>
+                        </div>
+                        <div id="phonenum">
+                          <input type="text" class="form-control" data-mask="(999) 999_9999" placeholder="(___) ________" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+                    <!--terms and conditons-->
+                    <div class="form-content-agreed">
+                      <div id="agreed">
+                        <div class="agreecheck">
+                          <input type="checkbox" class="i-checks"/>
+                        </div>
+                        <div  class="agreedcontent">
+                          <p class="agreedtext">I agree with the <a>Terms and Conditions</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <!--signup btn-->
+                    <div class="form-submit-sign">
+                        <input type="submit" name="signin-submit" id="signin-submit" tabindex="3" class="sign-submit" value="SIGN UP">
+                    </div>
+                    <!--To login-->
+                    <div class="loginlink">
+                      <p>Already have an account? <a href="/login">Log in</a></p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- jQuery -->
+  <script src="vendor/jquery/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <!-- attribute change control -->
+
+  <script src="js/attrchange.js"></script>
+  <script src="js/icheck.min.js"></script>
+  <script src="js/jasny-bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#signup_main').hide();
+      $('#signup_main').delay(200).fadeIn(300);
+    });
+  </script>
+    <script>
+        $('.i-checks').iCheck({
+            checkboxClass: 'icheckbox_square-green',
+            radioClass: 'iradio_square-green',
+        });
+    </script>
+  <script type="text/javascript">
+    $('.flag_selected_sign').attrchange({
+        trackValues: true,
+        callback: function (event) {
+          if(event.newValue == 'true') {
+          $(this).find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+          } else {
+          $(this).find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+          }
+        }
+    });
+
+  </script>
+  <!-- selected country code -->
+  <script type="text/javascript">
+    $('ul li').click( function(){
+      var countrycode = $(this).val();
+      if(countrycode == 44){
+        $('#selcountry').attr('src','images/flag_eng.png');
+        $('.intercode span').text('+44');
+      }
+      if(countrycode == 7){
+        $('#selcountry').attr('src','images/flag_rus.png');
+        $('.intercode span').text('+7');
+      }
+      if(countrycode == 34){
+        $('#selcountry').attr('src','images/flag_spa.png');
+        $('.intercode span').text('+34');
+      }
+      if(countrycode == 33){
+        $('#selcountry').attr('src','images/flag_fra.png');
+        $('.intercode span').text('+33');
+      }
+    });
+  </script>
+  <!-- arrow move to top -->
+    <script src="/js/dependencies/sails.io.js"></script>
+  </body>
+</html>

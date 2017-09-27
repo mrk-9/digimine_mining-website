@@ -1,0 +1,145 @@
+
+/*************log in start**************/
+.link-home{
+	font-family: 'roboto_regular';
+	color: white;
+	font-size: 16px;
+}
+.link-home:hover{
+	color: #c7aa5b;
+}
+.link-home:after{
+	color: white;
+}
+
+.custom-intro {
+	background: #5c34eb;
+	background-image: url(../images/banner-bg.jpg);
+	background-size: cover;
+}
+
+.background-cover {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+#page-top {
+	margin: 0px !important;
+}
+#login_main{
+	position: relative;
+	width: 576px;
+	height: 735px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background: url(../images/log-bg.png);
+}
+#login_main .logo-img{
+	top:65px;
+}
+#login_main .brand-heading{
+	font-family: roboto_light !important;
+	font-size: 26px !important;
+	color: #fff;
+	opacity: 0.6;
+	position: relative;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 43px 0;
+	letter-spacing: .5px;
+}
+form#log-form{
+	margin-top:10px; 
+	display: inline-block;
+	width: 100%
+}
+#log-form .form-content{
+	position: relative;
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+	padding-top:22px;
+	padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+#login_main .form-content i{
+	width: 23px;
+	font-size: 21px;
+	font-weight: lighter;
+	margin-left: 14px;
+}
+#login_main .form-content .lavel-icon{
+	position: relative;
+	float: left;
+	width: 23px;
+	margin-left: 13px
+}
+#login_main .form-content input{
+	background: none;
+	font-family: roboto_light !important;
+	font-size: 20px;
+	border: 0px;
+	margin-left: 13px; 
+	letter-spacing: 1px;
+	outline: none;
+	box-shadow: none;
+	color: #8c8c90;
+	width: 245px;
+}
+#log-form .form-submit{
+	margin-top: 50px;
+}
+.log-submit{
+	background: #c7aa5b;
+	width: 295px;
+	height:57px;
+	font-size: 25px;
+    font-family: 'futurabookc';
+    font-weight: 500;
+    color: #ffffff;
+    border: solid 3px #c7aa5b;
+    padding: 10px 41px;
+    display: inline-block;
+    position: relative;
+    border-radius: 3px;
+    padding-bottom: 7px;
+}
+.log-submit:hover {
+	color:#c7aa5b;
+	background: none;
+	border-color: #c7aa5b;
+	cursor: pointer;
+}
+#login_main .log-link-text{
+	font-family: roboto_light !important;
+	font-size: 18px;
+    color: #c7aa5b;
+    font-weight: lighter;
+    letter-spacing: 0.7px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+#login_main .log-link-text a{
+	font-family: roboto_light !important;
+	color: #c7aa5b;
+	border-bottom: 1px solid;
+}
+#login_main a.log-pass-text{
+	font-family: roboto_light !important;
+	color: white;
+	font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: block;
+}
+@media (max-width: 767px) {
+	#login_main{
+		position: relative;
+		width:100%;
+	}
+}
+/**************log in end**********/
